@@ -19,6 +19,8 @@
     <AssemblyOriginatorKeyFile>..\Shared\SQLite.CodeFirst.StrongNameKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
+    <Reference Include="Microsoft.CSharp" />
+    <Compile Include="SqliteMigrationSqlGenerator.cs" />
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.3.0" />
   </ItemGroup>
