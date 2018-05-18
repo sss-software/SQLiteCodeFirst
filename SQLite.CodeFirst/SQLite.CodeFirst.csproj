@@ -21,6 +21,9 @@
 
     <Reference Include="Microsoft.CSharp" />
     <Compile Include="SqliteMigrationSqlGenerator.cs" />
+    <Compile Include="Internal\Builder\MigrationBuilder.cs" />
+    <Compile Include="Internal\Utility\MigrationFormatter.cs" />
+    <Compile Include="Public\DbInitializers\SqliteMigrateDatabaseToLatestVersion.cs" />
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.3.0" />
   </ItemGroup>
